@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    background-color: #f7f7f7; /* Cor de fundo suave */
+    color: #333; /* Cor do texto */
+    position: relative; /* Para que a posição do nome do restaurante seja relativa ao corpo da página */
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 800px; 
+    margin: auto; 
+    padding: 20px;
+    background-color: #fff; /* Fundo branco */
+    border-radius: 8px; /* Borda arredondada */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra suave */
+  }
+  
+  .menu {
+    text-align: center; 
+  }
+  
+  h1 {
+    margin-top: 0; 
+    height: 50px;
+    color: #555; /* Cor do título */
+  }
+  
+  .tabs {
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .tablink {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+    margin: 0 5px; 
+    color: #555; /* Cor do texto dos botões */
+    border-radius: 5px; /* Borda arredondada */
+  }
+  
+  .tablink:hover {
+    background-color: #ddd;
+    animation: floatOnHover 0.5s infinite alternate;
+  }
+  
+  .section {
+    display: none;
+  }
+  
+  .section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .section ul li {
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Borda ao redor de cada item */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Borda arredondada */
+  }
+  #sobre-mesas {
+    text-align: center; /* Alinha o texto ao centro */
+  }
+  
+  /* Estilo para centralizar os itens da lista de sobremesas */
+  #sobre-mesas ul {
+    margin: 0 auto; /* Define as margens esquerda e direita automáticas para centralizar */
+    width: 100%; /* Define a largura da lista para o tamanho do conteúdo */
+  }
+
+  /* Estilos para o nome do restaurante */
+  .restaurant-name {
+    position: absolute; /* Posição absoluta */
+    top: 20px; /* Distância do topo da página */
+    left: 20px; /* Distância da borda esquerda da página */
+    font-size: 18px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    color: #555; /* Cor do texto */
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); /* Sombra do texto */
+  }
+
+  /* Animação para o efeito "flutuante" */
+  @keyframes floatName {
+    from {
+      transform: translateX(-50%) translateY(0);
+    }
+    to {
+      transform: translateX(-50%) translateY(-5px);
+    }
+  }
+
+  /* Animação para o efeito de flutuação */
+@keyframes floatOnHover {
+    from {
+      transform: translateX(-50%) translateY(2);
+    }
+    to {
+      transform: translateX(5%) translateY(0px);
+    }
+  }
+
