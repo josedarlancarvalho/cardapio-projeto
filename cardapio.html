@@ -5,18 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cardápio Virtual</title>
   <link rel="stylesheet" href="cardapio.css">
+  <link rel="icon" href="/cardapio-projeto/images/logo rest.jpg">
 </head>
 <body>
-  <div class="restaurant-name">Mirante à Mesa</div>
+  <div class="restaurant-name"> <img src="/cardapio-projeto/images/logo rest.jpg" alt="">Mirante à Mesa</div>
   <div class="container">
     <div class="menu">
       <h1>Cardápio</h1>
       <div class="tabs">
-        <button class="tablink" onclick="openSection('destaques')">Destaques</button>
-        <button class="tablink" onclick="openSection('frutos-do-mar')">Frutos do Mar</button>
-        <button class="tablink" onclick="openSection('carnes')">Carnes</button>
-        <button class="tablink" onclick="openSection('pratos-executivos')">Pratos Executivos</button>
-        <button class="tablink" onclick="openSection('sobre-mesas')">Sobremesas</button>
+        <button class="tablink" onclick="openSection('destaques')"><img src="/cardapio-projeto/images/destaques.jpg" alt=""/button>
+        <button class="tablink" onclick="openSection('frutos-do-mar')"> <img src="/cardapio-projeto/images/frutos do mar.jpg" alt=""/button>
+        <button class="tablink" onclick="openSection('carnes')"> <img src="/cardapio-projeto/images/carnes.jpg" alt=""/button>
+        <button class="tablink" onclick="openSection('pratos-executivos')"><img src="/cardapio-projeto/images/pratos executivos.jpg" alt=""/button>
+        <button class="tablink" onclick="openSection('sobre-mesas')"><img src="/cardapio-projeto/images/sobremesaas.jpg" alt=""/button>
       </div>
       <div id="destaques" class="section">
         <h3>Destaques</h3>
@@ -33,51 +34,61 @@
           <span id="peixe-grelhado-quantity">0</span>
             <button onclick="addItem('peixe-grelhado')">+</button>
             <button onclick="removeItem('peixe-grelhado')">-</button>
+            <img src="/cardapio-projeto/images/peixe-grelhado.jpg" alt="peixe-grelhado">
         </li>
           <li>Camarão ao Alho e Óleo - R$ 30,00 <br>
           <span id="camarao-ao-alho-e-oleo-quantity">0</span>
             <button onclick="addItem('camarao-ao-alho-e-oleo')">+</button>
             <button onclick="removeItem('camarao-ao-alho-e-oleo')">-</button>
+            <img src="/cardapio-projeto/images/camaraoalhooleo.jpg" alt="camarao-ao-alho-e-oleo">
         </li>
           <li>Lula à Dorê - R$ 28,00<br>
           <span id="lula-a-dore-quantity">0</span>
             <button onclick="addItem('lula-a-dore')">+</button>
             <button onclick="removeItem('lula-a-dore')">-</button>
+            <img src="/cardapio-projeto/images/lulaadore.jpg" alt="lula-a-dore">
         </li>
           <li>Moqueca de Camarão - R$ 35,00<br>
           <span id="moqueca-de-camarao-quantity">0</span>
             <button onclick="addItem('moqueca-de-camarao')">+</button>
             <button onclick="removeItem('moqueca-de-camarao')">-</button>
+            <img src="/cardapio-projeto/images/moqueca.jpg" alt="moqueca-de-camarao">
         </li>
           <li>Polvo à Lagareiro - R$ 40,00<br>
           <span id="polvo-a-lagareiro-quantity">0</span>
             <button onclick="addItem('polvo-a-lagareiro')">+</button>
             <button onclick="removeItem('polvo-a-lagareiro')">-</button>
+            <img src="/cardapio-projeto/images/polvo a lagareiro.jpg" alt="polvo-a-lagareiro">
         </li>
           <li>Salmão ao Molho de Maracujá - R$ 38,00<br>
           <span id="salmao-ao-molho-de-maracuja-quantity">0</span>
             <button onclick="addItem('salmao-ao-molho-de-maracuja')">+</button>
             <button onclick="removeItem('salmao-ao-molho-de-maracuja')">-</button>
+            <img src="/cardapio-projeto/images/salmao maracu.jpg" alt="salmao-ao-molho-de-maracuja">
         </li>
           <li>Caranguejo Ensopado - R$ 32,00<br>
           <span id="caranguejo-ensopado-quantity">0</span>
             <button onclick="addItem('caranguejo-ensopado')">+</button>
             <button onclick="removeItem('caranguejo-ensopado')">-</button>
+            <img src="/cardapio-projeto/images/carangueijo ensopa.jpg" alt="caranguejo-ensopado">
         </li>
           <li>Bolinho de Bacalhau - R$ 20,00<br>
           <span id="bolinho-de-bacalhau-quantity">0</span>
             <button onclick="addItem('bolinho-de-bacalhau')">+</button>
             <button onclick="removeItem('bolinho-de-bacalhau')">-</button>
+            <img src="/cardapio-projeto/images/bolinho bacalha.jpg" alt="bolinho-de-bacalhau">
         </li>
           <li>Risoto de Frutos do Mar - R$ 45,00<br>
           <span id="risoto-de-frutos-do-mar-quantity">0</span>
             <button onclick="addItem('risoto-de-frutos-do-mar')">+</button>
             <button onclick="removeItem('risoto-de-frutos-do-mar')">-</button>
+            <img src="/cardapio-projeto/images/risoto de frutos do mar.jpg" alt="risoto-de-frutos-do-mar">
         </li>
           <li>Robalo Grelhado - R$ 42,00<br>
           <span id="robalo-grelhado-quantity">0</span>
             <button onclick="addItem('robalo-grelhado')">+</button>
             <button onclick="removeItem('robalo-grelhado')">-</button>
+            <img src="/cardapio-projeto/images/robalo grelhado.jpg" alt="robalo-grelhado">
         </li>
         </ul>
       </div>
@@ -88,50 +99,60 @@
                 <span id="bife-de-file-mignon-quantity">0</span>
                 <button onclick="addItem('bife-de-file-mignon')">+</button>
                 <button onclick="removeItem('bife-de-file-mignon')">-</button>
+                <img src="/cardapio-projeto/images/Bife de Filé Mignon.jpg" alt="bife-de-file-mignon">
               </li>
               <li>Costela de Porco - R$ 28,00 <br>
                 <span id="costela-de-porco-quantity">0</span>
                 <button onclick="addItem('costela-de-porco')">+</button>
                 <button onclick="removeItem('costela-de-porco')">-</button>
+                <img src="/cardapio-projeto/images/Costela de Porco.jpg" alt="costela-de-porco"
               </li>
               <li>Churrasco Misto - R$ 40,00 <br>
                 <span id="churrasco-misto-quantity">0</span>
                 <button onclick="addItem('churrasco-misto')">+</button>
                 <button onclick="removeItem('churrasco-misto')">-</button>
+                <img src="/cardapio-projeto/images/Churrasco Misto.jpg" alt="churrasco-misto">
               </li>
               <li>Cordeiro Assado - R$ 45,00 <br>
                 <span id="cordeiro-assado-quantity">0</span>
                 <button onclick="addItem('cordeiro-assado')">+</button>
                 <button onclick="removeItem('cordeiro-assado')">-</button>
+                <img src="/cardapio-projeto/images/Cordeiro Assado.jpg" alt="cordeiro-assado">
               </li>
               <li>Picanha na Pedra - R$ 38,00 <br> <span id="picanha-na-pedra-quantity">0</span>
                 <button onclick="addItem('picanha-na-pedra')">+</button>
                 <button onclick="removeItem('picanha-na-pedra')">-</button>
+                <img src="/cardapio-projeto/images/picanha pedra.jpg" alt="picanha-na-pedra">
               </li>
           <li>Carne de Sol - R$ 32,00 <br>
           <span id="carne-de-sol-quantity">0</span>
                 <button onclick="addItem('carne-de-sol')">+</button>
                 <button onclick="removeItem('carne-de-sol')">-</button>
+                <img src="/cardapio-projeto/images/carne sol fritas.jpg" alt="carne-de-sol">
                 </li>
           <li>Paleta de Cordeiro - R$ 42,00 <br>
           <span id="paleta-de-cordeiro-quantity">0</span>
                 <button onclick="addItem('paleta-de-cordeiro')">+</button>
                 <button onclick="removeItem('paleta-de-cordeiro')">-</button>
+                <img src="/cardapio-projeto/images/paleta cordeiro.jpg" alt="paleta-de-cordeiro">
             </li>
           <li>Porco à Parmegiana - R$ 25,00 <br>
           <span id="porco-a-parmegiana-quantity">0</span>
                 <button onclick="addItem('porco-a-parmegiana')">+</button>
                 <button onclick="removeItem('porco-a-parmegiana')">-</button>
+                <img src="/cardapio-projeto/images/porco parmegiana.jpg" alt="porco-a-parmegiana">
             </li>
           <li>Costelinha de Porco BBQ - R$ 30,00 <br>
           <span id="costelinha-de-porco-quantity">0</span>
                 <button onclick="addItem('costelinha-de-porco')">+</button>
                 <button onclick="removeItem('costelinha-de-porco')">-</button>
+                <img src="/cardapio-projeto/images/Costelinha de Porco BBQ.jpg" alt="costelinha-de-porco-ao-BBQ">
             </li>
           <li>Bife à Milanesa - R$ 22,00 <br>
           <span id="bife-a-milanesa-quantity">0</span>
                 <button onclick="addItem('bife-a-milanesa')">+</button>
                 <button onclick="removeItem('bife-a-milanesa')">-</button>
+                <img src="/cardapio-projeto/images/Bife à Milanesa.jpg" alt="bife-a-milanesa">
             </li>
         </ul>
       </div>
@@ -141,42 +162,52 @@
                     <li>Strogonoff de Frango - R$ 20,00 <span id="strogonoff-de-frango-quantity">0</span>
                         <button onclick="addItem('strogonoff-de-frango')">+</button>
                         <button onclick="removeItem('strogonoff-de-frango')">-</button>
+                        <img src="/cardapio-projeto/images/strogonoff frang.jpg" alt="strogonoff-de-frango">
                       </li>
                       <li>Feijoada Completa - R$ 40,00 <span id="feijoada-completa-quantity">0</span>
                         <button onclick="addItem('feijoada-completa')">+</button>
                         <button onclick="removeItem('feijoada-completa')">-</button>
+                        <img src="/cardapio-projeto/images/feijoada.jpg" alt="feijoada-completa">
                       </li>
                   <li>Peito de Frango Grelhado - R$ 18,00 <span id="peito-de-frango-grelhado-quantity">0</span>
                     <button onclick="addItem('peito-de-frango-grelhado')">+</button>
                     <button onclick="removeItem('peito-de-frango-grelhado')">-</button>
+                    <img src="/cardapio-projeto/images/Peito de Frango Grelhado.jpg" alt="peito-de-frango-grelhado">
                   </li>
                   <li>Picanha na Chapa - R$ 35,00 <span id="picanha-na-chapa-quantity">0</span>
                     <button onclick="addItem('picanha-na-chapa')">+</button>
                     <button onclick="removeItem('picanha-na-chapa')">-</button>
+                    <img src="/cardapio-projeto/images/Picanha na Chapa.jpg" alt="picanha-na-chapa">
                   </li>
                   <li>Lasanha à Bolonhesa - R$ 25,00 <span id="lasanha-a-bolonhesa-quantity">0</span>
                     <button onclick="addItem('lasanha-a-bolonhesa')">+</button>
                     <button onclick="removeItem('lasanha-a-bolonhesa')">-</button>
+                    <img src="/cardapio-projeto/images/Lasanha à Bolonhesa.jpg" alt="lasanha-a-bolonhesa">
                   </li>
                   <li>Risoto de Frango - R$ 22,00 <span id="risoto-de-frango-quantity">0</span>
                     <button onclick="addItem('risoto-de-frango')">+</button>
                     <button onclick="removeItem('risoto-de-frango')">-</button>
+                    <img src="/cardapio-projeto/images/Risoto de Frango.jpg" alt="risoto-de-frango">
                   </li>
                   <li>Filé de Peixe - R$ 27,00 <span id="file-de-peixe-quantity">0</span>
                     <button onclick="addItem('file-de-peixe')">+</button>
                     <button onclick="removeItem('file-de-peixe')">-</button>
+                    <img src="/cardapio-projeto/images/Filé de Peixe.jpg" alt="file-de-peixe">
                   </li>
                   <li>Bife à Parmegiana - R$ 32,00 <span id="bife-a-parmegiana-quantity">0</span>
                     <button onclick="addItem('bife-a-parmegiana')">+</button>
                     <button onclick="removeItem('bife-a-parmegiana')">-</button>
+                    <img src="/cardapio-projeto/images/Bife à Parmegiana.jpg" alt="bife-a-parmegiana">
                   </li>
                   <li>Espaguete à Bolonhesa - R$ 20,00 <span id="espaguete-a-bolonhesa-quantity">0</span>
                     <button onclick="addItem('espaguete-a-bolonhesa')">+</button>
                     <button onclick="removeItem('espaguete-a-bolonhesa')">-</button>
+                    <img src="/cardapio-projeto/images/Espaguete à Bolonhesa.jpg" alt="espaguete-a-bolonhesa">
                   </li>
                   <li>Salada de Frango - R$ 18,00 <span id="salada-de-frango-quantity">0</span>
                     <button onclick="addItem('salada-de-frango')">+</button>
                     <button onclick="removeItem('salada-de-frango')">-</button>
+                    <img src="/cardapio-projeto/images/Salada de Frango.jpg" alt="salada-de-frango">
                   </li>
                 </ul>
               </div>
@@ -189,42 +220,52 @@
                   <li>Pudim de Leite - R$ 10,00 <br> <span id="pudim-de-leite-quantity">0</span>
                     <button onclick="addItem('pudim-de-leite')">+</button>
                     <button onclick="removeItem('pudim-de-leite')">-</button>
+                    <img src="/cardapio-projeto/images/Pudim de Leite.jpg" alt="pudim-de-leite">
                   </li>
                   <li>Torta de Limão - R$ 12,00<br> <span id="torta-de-limao-quantity">0</span>
                     <button onclick="addItem('torta-de-limao')">+</button>
                     <button onclick="removeItem('torta-de-limao')">-</button>
+                    <img src="/cardapio-projeto/images/Torta de Limão.jpg" alt="torta-de-limao">
                   </li>
                   <li>Sorvete de Chocolate - R$ 8,00<br> <span id="sorvete-de-chocolate-quantity">0</span>
                     <button onclick="addItem('sorvete-de-chocolate')">+</button>
                     <button onclick="removeItem('sorvete-de-chocolate')">-</button>
+                    <img src="/cardapio-projeto/images/Sorvete de Chocolate.jpg" alt="sorvete-de-chocolate">
                   </li>
                   <li>Cheesecake - R$ 15,00<br> <span id="cheesecake-quantity">0</span>
                     <button onclick="addItem('cheesecake')">+</button>
                     <button onclick="removeItem('cheesecake')">-</button>
+                    <img src="/cardapio-projeto/images/Cheesecake.jpg" alt="cheesecake">
                   </li>
                   <li>Brigadeiro - R$ 5,00<br> <span id="brigadeiro-quantity">0</span>
                     <button onclick="addItem('brigadeiro')">+</button>
                     <button onclick="removeItem('brigadeiro')">-</button>
+                    <img src="/cardapio-projeto/images/Brigadeiro.jpg" alt="brigadeiro">
                   </li>
                   <li>Mousse de Maracujá - R$ 9,00<br> <span id="mousse-de-maracuja-quantity">0</span>
                     <button onclick="addItem('mousse-de-maracuja')">+</button>
                     <button onclick="removeItem('mousse-de-maracuja')">-</button>
+                    <img src="/cardapio-projeto/images/Mousse de Maracujá.jpg" alt="mousse-de-maracuja">
                   </li>
                   <li>Petit Gateau - R$ 18,00<br> <span id="petit-gateau-quantity">0</span>
                     <button onclick="addItem('petit-gateau')">+</button>
                     <button onclick="removeItem('petit-gateau')">-</button>
+                    <img src="/cardapio-projeto/images/Petit Gateau.jpg" alt="petit-gateau">
                   </li>
                   <li>Tiramisu - R$ 16,00 <br><span id="tiramisu-quantity">0</span>
                     <button onclick="addItem('tiramisu')">+</button>
                     <button onclick="removeItem('tiramisu')">-</button>
+                    <img src="/cardapio-projeto/images/Tiramisu.jpg" alt="tiramisu">
                   </li>
                   <li>Pavê de Chocolate - R$ 14,00 <br><span id="pave-de-chocolate-quantity">0</span>
                     <button onclick="addItem('pave-de-chocolate')">+</button>
                     <button onclick="removeItem('pave-de-chocolate')">-</button>
+                    <img src="/cardapio-projeto/images/Pavê de Chocolate.jpg" alt="pave-de-chocolate">
                   </li>
                   <li>Cocada Cremosa - R$ 11,00<br> <span id="cocada-cremosa-quantity">0</span>
                     <button onclick="addItem('cocada-cremosa')">+</button>
                     <button onclick="removeItem('cocada-cremosa')">-</button>
+                    <img src="/cardapio-projeto/images/Cocada Cremosa.jpg" alt="cocada-cremosa">
                   </li>
                 </ul>
               </div>
@@ -234,4 +275,5 @@
     </div>
   </div>
   <script src="cardapio.js"></script>
-</body
+</body>
+</html>

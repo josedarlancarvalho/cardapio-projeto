@@ -7,7 +7,6 @@ function openSection(sectionName) {
     document.getElementById(sectionName).style.display = "block";
   }
   
- 
 function addItem(item) {
     var quantityElement = document.getElementById(item + '-quantity');
     var currentQuantity = parseInt(quantityElement.innerText);
